@@ -18,7 +18,6 @@ source ~/.bash_profile
 
 # {{ ALIASES }}
 alias h="hx"
-alias rm="rm -i"
 alias cc="clang"
 alias ll="ls -lA"
 alias py="python3"
