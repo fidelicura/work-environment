@@ -30,6 +30,6 @@ Also, you are free to rewrite it to your own kind: I tried to make it as simple 
 There is not everything that I wanted to include in this bootstrap.
 To be "fully-qualified", you'll need to install:
 - `Zig` (programming language) + `zls` (language server for `Zig`):
-  - according folders (under the `$HOME/.zig/`: `src/` for `Zig`, `lsp/` for `zls`);
+  - according folders (under the `$HOME/.own/`: `zig/src` for `Zig`, `zig/lsp` for `zls`);
 - `Outline CLI` (VPN tool):
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `output` under `/usr/local/bin`;
