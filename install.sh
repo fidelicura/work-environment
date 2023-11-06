@@ -53,7 +53,7 @@ $INST -Suy linux linux-firmware linux-headers \
     intel-ucode xf86-video-$GRAPHICS_USER \
     xorg-minimal bspwm sxhkd \
     dbus seatd pam_rundir dhcpcd chrony pipewire \
-    xrandr xset xclip xwallpaper \
+    xrandr xset xclip xwallpaper picom \
     bash git curl tar xz unzip unrar \
     man-db man-pages \
     clang clang-tools-extra llvm python3 go fasm \
