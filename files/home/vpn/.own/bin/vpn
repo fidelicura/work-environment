@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$VPN_KEY" ]; then
+  echo -e "\n[$] > VPN_KEY not set! Exiting..."
+  exit 1
+fi
+
+su -c "outline -transport \"$VPN_KEY\"" 

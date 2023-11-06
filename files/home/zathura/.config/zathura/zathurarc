@@ -1,0 +1,64 @@
+# {{ COLORS }}
+set default-bg                  "#4b565c"
+set default-fg                  "#d3c6aa"
+
+set statusbar-fg                "#d3c6aa"
+set statusbar-bg                "#2b3339"
+
+set inputbar-bg                 "#2b3339"
+set inputbar-fg                 "#d3c6aa"
+
+set notification-bg             "#2b3339"
+set notification-fg             "#d3c6aa"
+
+set notification-error-bg       "#2b3339"
+set notification-error-fg       "#d3c6aa"
+
+set notification-warning-bg     "#2b3339"
+set notification-warning-fg     "#d3c6aa"
+
+set highlight-color             "#4b565c"
+set highlight-active-color      "#e67e80"
+
+set completion-bg               "#2b3339"
+set completion-fg               "#d3c6aa"
+
+set completion-highlight-fg     "#4b565c"
+set completion-highlight-bg     "#2b3339"
+
+set recolor-lightcolor          "#2b3339"
+set recolor-darkcolor           "#d3c6aa"
+
+set recolor                     "true"
+set recolor-keephue             "false"
+# {{ COLORS }}
+
+
+
+# {{ KEYBINDINGS }}
+unmap c
+map c recolor
+
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+# {{ KEYBINDINGS }}
+
+
+
+# {{ OPTIONS }}
+set font "IBM Plex Mono 14"
+
+set adjust-open "best-fit"
+
+set render-loading "false"
+set scroll-step 50
+
+set selection-clipboard clipboard
+
+set pages-per-row 1
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+# {{ OPTIONS }}
