@@ -13,7 +13,7 @@ stow -t $HOME */ &&
 cd ../assets/ &&
 stow -t $HOME */ &&
 
-cd ../xorgs/ &&
+cd ../ &&
 echo &&
-su -c "mkdir -p /etc/X11/xorg.conf.d/" && # && stow -t /etc/X11/xorg.conf.d/ xorgs/" &&
+su -c "mkdir -p /etc/X11/xorg.conf.d/ && stow -t /etc/X11/xorg.conf.d/ xorgs/" &&
 echo -e "\n[$] > Done!"
