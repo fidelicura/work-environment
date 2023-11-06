@@ -1,11 +1,3 @@
-# {{ TTY }}
-# if [[ "$(tty)" == "/dev/tty1" ]]; then
-#     exec startx
-# fi
-# {{ TTY }}
-
-
-
 # {{ CUSTOM }}
 export TERM=xterm
 export EDITOR=hx
@@ -44,6 +36,5 @@ export XDG_VIDEOS_DIR=$HOME/documents/videos
 
 # {{ PATH }}
 PATH=$PATH:$HOME/.own/bin:$HOME/.own/zig/src:$HOME/.own/zig/lsp
-source $HOME/.own/rust/cargo/env
+source "$HOME/.own/rust/cargo/env"
 # {{ PATH }}
-. "/home/fidelicura/.own/rust/cargo/env"
