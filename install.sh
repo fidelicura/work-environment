@@ -59,7 +59,7 @@ $INST -Suy linux linux-firmware linux-headers \
     clang clang-tools-extra llvm python3 go fasm \
     make python3-wheel pkg-config docker \
     kitty helix fzf stow \
-    papirus-icon-theme dunst rofi \
+    papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun \
     htop tree calc rtorrent ufetch \
     firefox zathura-pdf-mupdf ffmpeg &&
