@@ -7,7 +7,7 @@
 
 
 echo -e "\n[$] > Stowing configuration files..." &&
-cd files/home/ &&
+cd ../files/home/ &&
 stow -t $HOME */ &&
 
 cd ../xorgs/ &&
