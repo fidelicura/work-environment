@@ -31,6 +31,6 @@ fi
 dunst &
 pipewire &
 pipewire-pulse &
-xwallpaper --zoom $HOME/.config/bg/bg &
+xwallpaper --zoom $HOME/.config/bg/bg.png &
 picom &
 exec bspwm
