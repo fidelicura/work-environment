@@ -3,7 +3,7 @@ super + Return
 	kitty
 
 super + p
-	exec $HOME/.config/rofi/launcher/launcher.sh
+	rofi -show drun
 
 Print
 	exec $HOME/.config/sxhkd/screenshot.sh

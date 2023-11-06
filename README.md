@@ -14,10 +14,11 @@ I love Void Linux. It is **simple**, **bloatless** and **cozy**. Also, I love BS
 - [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/configs/tilde/.bashrc)
 - [x] Text Editor: [helix](https://github.com/helix-editor/helix)
 - [x] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
-- [ ] App Launcher: [rofi](https://github.com/davatorium/rofi)
+- [x] App Launcher: [rofi](https://github.com/davatorium/rofi)
 - [x] Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/) with custom [user.js](/configs/firefox/.mozilla/firefox/main.main/user.js)
 - [x] Reader: [zathura](https://git.pwmt.org/pwmt/zathura)
 - [ ] Preview: [presenterm](https://github.com/mfontanini/presenterm)
+- [ ] MIME: [handlr](https://github.com/chmln/handlr) instead of [xdg-open](https://portland.freedesktop.org/doc/xdg-open.html)
 
 # Bootstraping
 
