@@ -13,7 +13,7 @@ I love Void Linux. It is simple, bloatless and cozy. Also, I love BSPWM - it is 
 - [x] Compositor: [picom](https://github.com/pijulius/picom) by [pijulius](https://github.com/pijulius)
 - [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/configs/tilde/.bashrc)
 - [ ] Text Editor: [helix](https://github.com/helix-editor/helix)
-- [ ] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
+- [x] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
 - [ ] App Launcher: [rofi](https://github.com/davatorium/rofi)
 - [ ] Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/) with custom [user.js](/configs/firefox/.mozilla/firefox/main.main/user.js)
 - [ ] Reader: [zathura](https://git.pwmt.org/pwmt/zathura)
