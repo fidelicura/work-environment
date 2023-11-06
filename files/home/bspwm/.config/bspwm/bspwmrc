@@ -33,7 +33,7 @@ bspc config single_monocle true
 
 
 # {{ FOCUS }}
-bspc config focus_follows_pointer true
+bspc config focus_follows_pointer false
 # {{ FOCUS }}
 
 

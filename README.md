@@ -1,8 +1,12 @@
+# Description
+
+I love Void Linux. It is simple, bloatless and cozy. Also, I love BSPWM - it is fast, modular and cozy.
+
 >I prefer `clang` and `musl` over `gcc` and `glibc`
 
 # Apps
 
-- [x] Distro: [void](https://voidlinux.org/) because it is ["just based"](https://youtu.be/rRFIlBIYCBY?feature=shared&t=9);
+- [x] Distro: [void](https://voidlinux.org/) because it is © ["just based"](https://youtu.be/rRFIlBIYCBY?feature=shared&t=9);
 - [x] Theme: [everforest](https://github.com/sainnhe/everforest) as an alternative of [gruvbox](https://github.com/morhetz/gruvbox);
 - [x] WM: [bspwm](https://github.com/baskerville/bspwm);
 - [x] Bar: [eww](https://github.com/elkowar/eww/tree/master);
