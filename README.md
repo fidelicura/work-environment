@@ -32,3 +32,5 @@ To be "fully-qualified", you'll need to install:
   - according folders (under the `$HOME/.own/`: `zig/src` for `Zig`, `zig/lsp` for `zls`);
 - `Outline CLI` (VPN tool):
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `output` under `/usr/local/bin`;
+- `Gruvbox` theme for `telegram-desktop`:
+  - https://t.me/addtheme/qoopdata - official telegram link, don't worry;
