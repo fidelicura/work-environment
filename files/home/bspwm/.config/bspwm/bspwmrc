@@ -41,14 +41,3 @@ bspc config focus_follows_pointer false
 # {{ RULES }}
 bspc rule -a Zathura state=tiled
 # {{ RULES }}
-
-
-
-# {{ AUTOSTART }}
-kitty &
-bspc -d 1
-firefox &
-bspc -d 2
-telegram-desktop &
-bspc -d 3
-# {{ AUTOSTART }}
