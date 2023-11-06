@@ -1,3 +1,11 @@
+# {{ TTY }}
+if [[ "$(tty)" == "/dev/tty1" ]]; then
+    exec startx
+fi
+# {{ TTY }}
+
+
+
 # {{ CUSTOM }}
 export TERM=xterm
 export EDITOR=hx
