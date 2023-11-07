@@ -6,7 +6,7 @@ super + p
 	rofi -show drun
 
 Print
-	exec $HOME/.config/sxhkd/screenshot.sh
+	exec $HOME/.own/bin/screenshot
 
 super + {plus,minus}
 	pactl set-sink-volume @DEFAULT_SINK@ {+,-}5%

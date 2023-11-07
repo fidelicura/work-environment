@@ -1,0 +1,5 @@
+style: "$HOME/.config/glow/theme.json"
+local: false
+mouse: false
+pager: false
+width: 80
