@@ -61,13 +61,12 @@ $INST -Suy linux linux-firmware linux-headers \
     kitty helix fzf stow \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun \
-    bottom tty-clock tree calc rtorrent ufetch \
+    bottom tty-clock glow tree calc rtorrent ufetch \
     firefox zathura-pdf-mupdf ffmpeg &&
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
 source $HOME/.own/rust/cargo/env &&
 rustup component add rust-analyzer clippy rustfmt &&
-cargo +stable install presenterm &&
 echo -e "\n[$] > Libraries, tools, programming languages and apps are succesfully installed!\n" &&
 
 
