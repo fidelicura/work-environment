@@ -60,7 +60,7 @@ function f() {
   fi
 }
 
-function npush() {
+function notes() {
     local stamp="$(date +'%Y-%m-%d')"
 
     pushd $HOME/documents/notes
@@ -72,20 +72,7 @@ function npush() {
     popd
 }
 
-function nedit() {
-  local filepath=$(find $HOME/documents/notes/content/ -not -path '*/.*' | fzf)
-  local filetype=$(file --mime-type -b "$filepath")
-
-  if [[ $filetype == text/* ]]; then
-      hx "$filepath"
-  elif [[ $filetype == video/* ]]; then
-      ffplay "$filepath"
-  else
-      echo -e "[$] > Unsupported \`$filetype\` filetype!\n"
-  fi
-}
-
-function nlook() {
+function look() {
     pushd $HOME/documents/notes/content
     glow
     popd
