@@ -4,6 +4,13 @@ I love Void Linux. It is **simple**, **bloatless** and **cozy**. Also, I love BS
 
 >I prefer `clang` and `musl` over `gcc` and `glibc` and I don't use any bar
 
+# Showcase
+
+![Terminal (`kitty`)](showcase/terminal.png)
+![Browser (`firefox`)](showcase/browser.png)
+![Messenger (`telegram`)](showcase/messenger.png)
+![Reader (`zathura`)](showcase/reader.png)
+
 # Apps
 
 - [x] Distro: [void](https://voidlinux.org/) because it is © ["just based"](https://youtu.be/rRFIlBIYCBY?feature=shared&t=9)

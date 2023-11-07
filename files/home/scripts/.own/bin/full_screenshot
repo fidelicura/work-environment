@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+
+
+now=$(date +"%Y-%m-%d-%H-%M-%S")
+pictures=$HOME/documents/pictures
+
+shotgun -f png $pictures/$now.png
