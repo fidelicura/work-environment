@@ -41,11 +41,3 @@ bspc config focus_follows_pointer false
 # {{ RULES }}
 bspc rule -a Zathura state=tiled
 # {{ RULES }}
-
-
-
-# {{ AUTOSTART }}
-kitty fun
-kitty btm
-kitty tty-clock
-# {{ AUTOSTART }}
