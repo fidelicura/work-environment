@@ -34,6 +34,7 @@ To be "fully-qualified", you'll need to install:
   - according folders (under the `$HOME/.own/`: `zig/src` for `Zig`, `zig/lsp` for `zls`);
 - `Outline CLI` (VPN tool):
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `output` under `/usr/local/bin`;
-- `gruvbox` theme for `Telegram` and `Firefox`:
+- `gruvbox` theme for `Telegram`, `Firefox` and `YouTube`:
   - https://t.me/addtheme/qoopdata - telegram;
   - https://addons.mozilla.org/en-US/firefox/addon/gruvbox-true-dark/ - firefox;
+  - https://userstyles.world/api/style/7261.user.css - youtube;
