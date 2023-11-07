@@ -60,7 +60,7 @@ function f() {
   fi
 }
 
-function notes() {
+function npush() {
     local stamp="$(date +'%Y-%m-%d')"
 
     pushd $HOME/documents/notes
@@ -72,7 +72,7 @@ function notes() {
     popd
 }
 
-function look() {
+function nedit() {
   local filepath=$(find $HOME/documents/notes/content/ -not -path '*/.*' | fzf)
   local filetype=$(file --mime-type -b "$filepath")
 
@@ -85,8 +85,10 @@ function look() {
   fi
 }
 
-function tasks() {
-    presenterm $HOME/documents/notes/content/Personal/Tasks.md
+function nlook() {
+    pushd $HOME/documents/notes/content
+    glow
+    popd
 }
 # {{ FUNCTIONS }}
 
