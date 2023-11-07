@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+
+kitty --hold fun &
+sleep 0.2
+
+kitty btm &
+sleep 0.2
+
+kitty tty-clock -scb &
