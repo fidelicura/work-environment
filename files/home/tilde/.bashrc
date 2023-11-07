@@ -22,6 +22,7 @@ alias cc="clang"
 alias ll="ls -lA"
 alias py="python3"
 alias ls="ls --color"
+alias xdg-open="handlr open"
 alias xclip="xclip -selection c"
 # {{ ALIASES }}
 
