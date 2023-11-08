@@ -74,7 +74,6 @@ function notes() {
 
 function look() {
     pushd $HOME/documents/notes/content
-    glow
     popd
 }
 # {{ FUNCTIONS }}
@@ -83,5 +82,5 @@ function look() {
 
 # {{ ON STARTUP }}
 clear
-# {{ ON STARTUP }}
 . "/home/fidelicura/.own/rust/cargo/env"
+# {{ ON STARTUP }}

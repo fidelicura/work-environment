@@ -61,7 +61,7 @@ $INST -Suy linux linux-firmware linux-headers \
     kitty helix fzf stow \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun \
-    bottom tty-clock glow tree calc rtorrent ufetch \
+    bottom tty-clock tree calc rtorrent ufetch \
     firefox zathura-pdf-mupdf ffmpeg &&
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
