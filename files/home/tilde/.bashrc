@@ -46,19 +46,6 @@ function sus() {
     local args="$@";
     su -c "$args"
 }
- 
-function f() {
-  local filepath=$(find $HOME | fzf)
-  local filetype=$(file --mime-type -b "$filepath")
-
-  if [[ $filetype == text/* ]]; then
-      hx "$filepath"
-  elif [[ $filetype == video/* ]]; then
-      ffplay "$filepath"
-  else
-      echo -e "[$] > Unsupported \`$filetype\` filetype!\n"
-  fi
-}
 
 function notes() {
     local stamp="$(date +'%Y-%m-%d')"
@@ -73,8 +60,8 @@ function notes() {
 }
 
 function look() {
-    pushd $HOME/documents/notes/content
-    popd
+  local filepath=$(find $HOME/documents/notes/content/ -not -path '*/.*' | fzf)
+  hx "$filepath"
 }
 # {{ FUNCTIONS }}
 
