@@ -58,7 +58,7 @@ $INST -Suy linux linux-firmware linux-headers \
     man-db man-pages \
     clang clang-tools-extra llvm python3 go fasm \
     make python3-pip python3-wheel pkg-config docker \
-    kitty helix fzf stow mdr \
+    kitty helix fzf stow \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun \
     bottom tty-clock tree calc rtorrent ufetch \
