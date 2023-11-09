@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+su -c "dbus-run-session flatpak run --devel md.obsidian.Obsidian --no-sandbox"

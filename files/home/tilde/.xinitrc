@@ -12,4 +12,4 @@ pipewire &
 pipewire-pulse &
 xwallpaper --zoom $HOME/.config/bg/bg.jpg &
 picom &
-exec bspwm
+dbus-run-session bspwm
