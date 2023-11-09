@@ -39,6 +39,8 @@ There is not everything that I wanted to include in this bootstrap.
 To be "fully-qualified", you'll need to install:
 - `Zig` (programming language) + `zls` (language server for `Zig`):
   - according folders (under the `$HOME/.own/`: `zig/src` for `Zig`, `zig/lsp` for `zls`);
+- `marksman` (language server for `Markdown`):
+  - install https://github.com/artempyanykh/marksman/releases and move to `$HOME/.own/marksman/`;
 - `Outline CLI` (VPN tool):
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `output` under `/usr/local/bin`;
 - `gruvbox` theme for `Telegram`, `Firefox` and `YouTube`:
