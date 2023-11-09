@@ -43,5 +43,5 @@ export XDG_VIDEOS_DIR=$HOME/documents/videos
 
 
 # {{ PATH }}
-PATH=$PATH:$HOME/.own/bin:$HOME/.own/zig/src:$HOME/.own/zig/lsp
+PATH=$PATH:$HOME/.own/bin:$HOME/.own/zig/src:$HOME/.own/zig/lsp:$HOME/.own/marksman
 # {{ PATH }}
