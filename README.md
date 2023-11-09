@@ -47,3 +47,8 @@ To be "fully-qualified", you'll need to install:
   - https://t.me/addtheme/qoopdata - telegram;
   - https://addons.mozilla.org/en-US/firefox/addon/gruvbox-true-dark/ - firefox;
   - https://userstyles.world/api/style/7261.user.css - youtube;
+- `Obsidian` from flathub (so, install `flatpak` and add `flathub` to repositories):
+  - install `flatpak` from `xbps`;
+  - add flathub to repositories: `sus flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`;
+  - install `obsidian`: `sus flatpak install flathub md.obsidian.Obsidian`;
+  - run as root with dbus session without sandboxing: ` sus dbus-run-session flatpak run --devel md.obsidian.Obsidian --no-sandbox`;
