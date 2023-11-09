@@ -47,7 +47,7 @@ function sus() {
     su -c "$args"
 }
 
-function notes() {
+function nsync() {
     local stamp="$(date +'%Y-%m-%d')"
 
     pushd $HOME/documents/notes
@@ -59,9 +59,14 @@ function notes() {
     popd
 }
 
-function look() {
+function nedit() {
   local filepath=$(find $HOME/documents/notes/content/ -not -path '*/.*' | fzf)
   hx "$filepath"
+}
+
+function nlook() {
+  local filepath=$(find $HOME/documents/notes/content/ -not -path '*/.*' | fzf)
+  mdr "$filepath"
 }
 # {{ FUNCTIONS }}
 
