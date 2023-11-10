@@ -66,7 +66,7 @@ function nedit() {
 
 function nlook() {
   local filepath=$(find $HOME/documents/notes/content/ -not -path '*/.*' | fzf)
-  mdr "$filepath"
+  mdp "$filepath"
 }
 # {{ FUNCTIONS }}
 
