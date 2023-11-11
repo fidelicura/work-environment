@@ -15,10 +15,11 @@ I love Void Linux. It is **simple**, **bloatless** and **cozy**. Also, I love BS
 
 - [x] Distro: [void](https://voidlinux.org/) because it is © ["just based"](https://youtu.be/rRFIlBIYCBY?feature=shared&t=9)
 - [x] Theme: [gruvbox](https://github.com/morhetz/gruvbox)
+- [x] Font: [iosevka]() with [custom build config](/files/assets/fonts/.local/share/fonts/private-build-plans.toml)
 - [x] WM: [bspwm](https://github.com/baskerville/bspwm)
 - [x] Hotkey Daemon: [sxhkd](https://github.com/baskerville/sxhkd)
 - [x] Compositor: [picom](https://github.com/yshui/picom/) by [yshui](https://github.com/yshui)
-- [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/configs/tilde/.bashrc)
+- [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/files/home/tilde/.bashrc)
 - [x] Text Editor: [helix](https://github.com/helix-editor/helix)
 - [x] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
 - [x] App Launcher: [rofi](https://github.com/davatorium/rofi)
