@@ -55,7 +55,7 @@ $INST -Suy linux linux-firmware linux-headers \
     dbus seatd pam_rundir dhcpcd chrony pipewire \
     xrandr xset xclip xwallpaper picom \
     bash git curl tar xz unzip unrar \
-    man-db man-pages \
+    man-db man-pages man-pages-devel man-pages-posix \
     clang clang-tools-extra llvm python3 go fasm \
     make python3-pip python3-wheel pkg-config docker \
     kitty helix fzf stow mdp \
