@@ -193,6 +193,9 @@ user_pref("browser.toolbars.bookmarks.visibility", "never");
 user_pref("browser.urlbar.shortcuts.bookmarks", false);
 user_pref("browser.urlbar.shortcuts.history", false);
 user_pref("browser.urlbar.shortcuts.tabs", false);
+user_pref("browser.translations.alwaysTranslateLanguages", false);
+user_pref("browser.translations.neverTranslateLanguages", true);
+user_pref("browser.translations.autoTranslate", false);
 
 /** FULLSCREEN ***/
 user_pref("full-screen-api.transition-duration.enter", "0 0");

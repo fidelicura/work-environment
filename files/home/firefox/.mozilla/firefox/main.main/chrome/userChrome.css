@@ -11,9 +11,13 @@
 
 #reader-mode-button, #readinglist-addremove-button {display: none !important}
 
-#star-button {display: none !important}
+#urlbar-go-button {visibility: visible !important;}
+#urlbar-reload-button {display: none !important;}
+#star-button {display: none !important;}
+#feed-button {display: none !important;}
+#star-button-box {display:none !important;}
 
-#navigator-toolbox{background-image: url("./Background.png"), url("./NavbarBackground.png")}  /*  Custom background -- Also check userContent.css  */
+/* #navigator-toolbox {background-image: url("./Background.png"), url("./NavbarBackground.png")}  /*  Custom background -- Also check userContent.css  */
 
 :root{
 --tab-border-radius: 3px !important; /*  Tab border radius -- Changes the tabs rounding  *//*  Default: 3px  */

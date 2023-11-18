@@ -11,7 +11,7 @@ Print
 super + Print
 	exec $HOME/.own/bin/full_screenshot
 
-super + {plus,minus}
+super + shift + {plus,minus}
 	pactl set-sink-volume @DEFAULT_SINK@ {+,-}5%
 # {{ APPS }}
 
