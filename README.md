@@ -1,8 +1,9 @@
 # Description
 
-I love Void Linux. It is **simple**, **bloatless** and **cozy**. Also, I love BSPWM - it is **fast**, **modular** and **cozy**.
+I love Void Linux. It is **simple**, **bloatless** and **cozy**.
+Also, I love BSPWM. It is **fast**, **modular** and **cozy**.
 
->I prefer `clang` and `musl` over `gcc` and `glibc` and I don't use any bar
+>I prefer `musl` over `glibc` and I don't use any bar.
 
 # Showcase
 
