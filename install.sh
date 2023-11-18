@@ -12,14 +12,8 @@ sudo clear &&
 
 
 
-read -p "[$] > Enter your Git username: " GIT_USERNAME &&
-read -p "[$] > Enter your Git email: " GIT_EMAIL &&
-read -p "[$] > Enter name of the user to update useful system rigts: " RIGHTS_USER &&
-read -p "[$] > Enter name videodriver ('intel'/'amdgpu'/'nouveau'): " GRAPHICS_USER &&
-
-
-
-./bootstrap/hierarchy.sh
+cd ./bootstrap &&
+./hierarchy.sh &&
 
 
 
@@ -56,11 +50,11 @@ $INST -Suy linux linux-firmware linux-headers \
     xrandr xset xclip xwallpaper picom \
     bash git curl tar xz unzip unrar \
     man-db man-pages man-pages-devel man-pages-posix \
-    clang clang-tools-extra llvm python3 go fasm \
+    gcc ccls python3 go fasm \
     make python3-pip python3-wheel pkg-config docker \
-    kitty helix fzf stow mdp \
+    kitty helix fzf stow mdp telegram-desktop \
     papirus-icon-theme picom dunst rofi \
-    xcolor slop shotgun \
+    xcolor slop shotgun handlr \
     bottom tty-clock tree calc rtorrent ufetch \
     firefox zathura-pdf-mupdf ffmpeg &&
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
@@ -97,11 +91,10 @@ echo -e "\n[$] > GRUB config changed successfully!\n" &&
 
 
 
-echo -e "\n[$] > Ignoring 'sudo', 'wpa_supplicant' and 'gcc' packages...\n" &&
+echo -e "\n[$] > Ignoring 'sudo', 'wpa_supplicant' packages...\n" &&
 sudo touch /usr/share/xbps.d/ignorepkgs.conf &&
 echo "ignorepkg=sudo" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
 echo "ignorepkg=wpa_supplicant" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
-echo "ignorepkg=gcc" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
 echo -e "\n[$] > Ignored successfully!\n" &&
 
     
@@ -115,11 +108,8 @@ echo -e "\n[$] > Git settings successfully set!\n" &&
 
 
 
-echo -e "\n[$] > Removing 'sudo', 'wpa_supplicant' and 'gcc' packages...\n" &&
-sudo -c "ln -sf /bin/clang /bin/cc" &&
-sudo -c "ln -sf /bin/clang /bin/g++" &&
-sudo -c "ln -sf /bin/clang /bin/gcc" &&
-$REM sudo wpa_supplicant gcc &&
+echo -e "\n[$] > Removing 'sudo', 'wpa_supplicant' packages...\n" &&
+$REM sudo wpa_supplicant &&
 echo -e "\n[$] > Removed successfully!\n" &&
 
 
@@ -127,7 +117,8 @@ echo -e "\n[$] > Removed successfully!\n" &&
 echo -e "\n[$] > Stowing configuration files...\n" &&
 rm -f $HOME/.bashrc &&
 rm -f $HOME/.bash_profile &&
-./bootstrap/stower.sh &&
+cd ./bootstrap &&
+./stower.sh &&
 echo -e "\n[$] > Configuration files successfully stowed!\n" &&
 
 

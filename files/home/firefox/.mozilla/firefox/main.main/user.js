@@ -189,6 +189,10 @@ user_pref("browser.privateWindowSeparation.enabled", false); // WINDOWS
 user_pref("cookiebanners.service.mode", 2);
 user_pref("cookiebanners.service.mode.privateBrowsing", 2);
 user_pref("browser.translations.enable", true);
+user_pref("browser.toolbars.bookmarks.visibility", "never");
+user_pref("browser.urlbar.shortcuts.bookmarks", false);
+user_pref("browser.urlbar.shortcuts.history", false);
+user_pref("browser.urlbar.shortcuts.tabs", false);
 
 /** FULLSCREEN ***/
 user_pref("full-screen-api.transition-duration.enter", "0 0");
