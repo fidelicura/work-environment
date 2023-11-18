@@ -1,13 +1,17 @@
-:root{--WindowDraggingFromNewtabButton: no-drag}  /*  For windows  *//*
+/* :root{--WindowDraggingFromNewtabButton: no-drag}  /*  For windows  */
 :root{--WindowDraggingFromNewtabButton: drag !important}  /* For linux */
 
-/*  #reload-button, #stop-button{display:none !important}  /*  Removes the reload/stop button  */
+#reload-button, #stop-button{display:none !important}  /*  Removes the reload/stop button  */
 
-/*  #back-button, #forward-button{display: none !important}  /*  Removes the forward/back button  */
+#back-button, #forward-button{display: none !important}  /*  Removes the forward/back button  */
 
-/*  .tab-close-button{display: none !important}  /*  Removes the x-button from the tabs  */
+.tab-close-button{display: none !important}  /*  Removes the x-button from the tabs  */
 
-/*  #tabs-newtab-button, #new-tab-button{opacity: 0 !important}  /*  Hide newtab button  */
+#tabs-newtab-button, #new-tab-button {opacity: 0 !important}  /*  Hide newtab button  */
+
+#reader-mode-button, #readinglist-addremove-button {display: none !important}
+
+#star-button {display: none !important}
 
 #navigator-toolbox{background-image: url("./Background.png"), url("./NavbarBackground.png")}  /*  Custom background -- Also check userContent.css  */
 
