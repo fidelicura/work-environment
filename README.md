@@ -45,11 +45,12 @@ To be "fully-qualified", you'll need to install:
   - install https://github.com/artempyanykh/marksman/releases and move to `$HOME/.own/marksman/`;
 - `Outline CLI` (VPN tool):
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `output` under `/usr/local/bin`;
-- `gruvbox` theme for `Telegram`, `Firefox`, `YouTube` and `GitHub`:
+- `gruvbox` theme for `Telegram`, `Firefox`, `YouTube`, `GitHub` and `Discord`:
   - https://t.me/addtheme/qoopdata - telegram;
   - https://addons.mozilla.org/en-US/firefox/addon/gruvbox-true-dark/ - firefox;
   - https://userstyles.world/api/style/7261.user.css - youtube;
   - https://userstyles.world/style/4653/gruvbox-github - github;
+  - https://userstyles.world/style/2326/discord-gruvbox - discord;
 - `Obsidian` from flathub (so, install `flatpak` and add `flathub` to repositories):
   - install `flatpak` from `xbps`;
   - add flathub to repositories: `sus flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`;
