@@ -91,10 +91,9 @@ echo -e "\n[$] > GRUB config changed successfully!\n" &&
 
 
 
-echo -e "\n[$] > Ignoring 'sudo', 'wpa_supplicant' packages...\n" &&
+echo -e "\n[$] > Ignoring 'sudo' package...\n" &&
 sudo touch /usr/share/xbps.d/ignorepkgs.conf &&
 echo "ignorepkg=sudo" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
-echo "ignorepkg=wpa_supplicant" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
 echo -e "\n[$] > Ignored successfully!\n" &&
 
     
@@ -108,8 +107,9 @@ echo -e "\n[$] > Git settings successfully set!\n" &&
 
 
 
-echo -e "\n[$] > Removing 'sudo', 'wpa_supplicant' packages...\n" &&
-$REM sudo wpa_supplicant &&
+echo -e "\n[$] > Removing 'sudo' package...\n" &&
+sudo -c "ln -sf /bin/gcc /bin/clang" &&
+$REM sudo &&
 echo -e "\n[$] > Removed successfully!\n" &&
 
 
