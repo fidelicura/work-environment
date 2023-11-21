@@ -29,7 +29,7 @@
   "panelDirection": "bottom",
   "panelOffset": 10,
   "isOverrideColors": true,
-  "resultFontColor": "#b8bb26",
+  "resultFontColor": "#ebdbb2",
   "candidateFontColor": "#b8bb26",
   "bgColor": "#282828",
   "isShowOptionsPageWhenUpdated": true,
