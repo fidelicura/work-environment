@@ -12,6 +12,11 @@ sudo clear &&
 
 
 
+read -p "\n [$] > Enter name of user to change system rights for: " RIGHTS_USER
+read -p "\n [$] > Enter name of system graphics driver to install (amdgpu/ati/intel/nouveau): " GRAPHICS_USER
+
+
+
 cd ./bootstrap &&
 ./hierarchy.sh &&
 
@@ -52,7 +57,7 @@ $INST -Suy linux linux-firmware linux-headers \
     man-db man-pages man-pages-devel man-pages-posix \
     gcc ccls python3 go fasm \
     make python3-pip python3-wheel pkg-config docker \
-    kitty helix fzf stow mdp telegram-desktop \
+    kitty helix fzf stow telegram-desktop \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun handlr \
     bottom tty-clock tree calc rtorrent ufetch \
@@ -98,12 +103,12 @@ echo -e "\n[$] > Ignored successfully!\n" &&
 
     
 
-echo -e "\n[$] > Setting up local Git settings...\n" &&
-$GITHUB user.email $GIT_EMAIL &&
-$GITHUB user.name $GIT_USERNAME &&
-$GITHUB credential.helper store &&
-$GITHUB http.postBuffer 157286400 &&
-echo -e "\n[$] > Git settings successfully set!\n" &&
+# echo -e "\n[$] > Setting up local Git settings...\n" &&
+# $GITHUB user.email $GIT_EMAIL &&
+# $GITHUB user.name $GIT_USERNAME &&
+# $GITHUB credential.helper store &&
+# $GITHUB http.postBuffer 157286400 &&
+# echo -e "\n[$] > Git settings successfully set!\n" &&
 
 
 
