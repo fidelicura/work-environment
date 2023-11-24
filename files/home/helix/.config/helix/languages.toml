@@ -1,8 +1,4 @@
 [[language]]
-name = "rust"
-auto-format = true
-
-[[language]]
 name = "latex"
 
 [language-server.texlab.config.texlab]
