@@ -13,7 +13,6 @@ sudo clear &&
 
 
 read -p "\n [$] > Enter name of user to change system rights for: " RIGHTS_USER
-read -p "\n [$] > Enter name of system graphics driver to install (amdgpu/ati/intel/nouveau): " GRAPHICS_USER
 
 
 
@@ -49,7 +48,7 @@ echo -e "\n[$] > System successfully updated!\n" &&
 echo -e "\n[$] > Installing libraries, tools, programming languages and apps...\n" &&
 $INST -Suy void-repo-nonfree &&
 $INST -Suy linux linux-firmware linux-headers \
-    intel-ucode mesa mesa-dri xf86-video-$GRAPHICS_USER \
+    intel-ucode mesa mesa-dri nvidia \
     xorg-minimal bspwm sxhkd \
     dbus seatd pam_rundir dhcpcd chrony pipewire \
     xrandr xset xclip xwallpaper picom \
@@ -57,7 +56,7 @@ $INST -Suy linux linux-firmware linux-headers \
     man-db man-pages man-pages-devel man-pages-posix \
     gcc ccls python3 go fasm \
     make python3-pip python3-wheel pkg-config docker \
-    kitty helix fzf stow telegram-desktop \
+    kitty helix fzf stow telegram-desktop steam \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun handlr \
     bottom tty-clock tree calc rtorrent ufetch \

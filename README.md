@@ -3,8 +3,6 @@
 I love Void Linux. It is **simple**, **bloatless** and **cozy**.
 Also, I love BSPWM. It is **fast**, **modular** and **cozy**.
 
->I prefer `musl` over `glibc` and I don't use any bar.
-
 # Showcase
 
 ![Terminal (`kitty`)](showcase/terminal.png)
