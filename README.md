@@ -45,4 +45,5 @@ To be "fully-qualified", you'll need to install:
   - https://userstyles.world/api/style/7261.user.css - youtube;
   - https://userstyles.world/style/4653/gruvbox-github - github;
   - https://userstyles.world/style/2326/discord-gruvbox - discord;
+- `duckduckgo` json settings from `$HOME/.mozilla/firefox/main.main/duckduckgo.json`;
 - `Obsidian` from official website as AppImage;
