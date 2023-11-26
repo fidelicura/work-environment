@@ -102,17 +102,8 @@ echo -e "\n[$] > Ignored successfully!\n" &&
 
     
 
-# echo -e "\n[$] > Setting up local Git settings...\n" &&
-# $GITHUB user.email $GIT_EMAIL &&
-# $GITHUB user.name $GIT_USERNAME &&
-# $GITHUB credential.helper store &&
-# $GITHUB http.postBuffer 157286400 &&
-# echo -e "\n[$] > Git settings successfully set!\n" &&
-
-
-
 echo -e "\n[$] > Removing 'sudo' package...\n" &&
-sudo -c "ln -sf /bin/gcc /bin/clang" &&
+su -c "ln -sf /bin/gcc /bin/clang" &&
 $REM sudo &&
 echo -e "\n[$] > Removed successfully!\n" &&
 
@@ -121,6 +112,7 @@ echo -e "\n[$] > Removed successfully!\n" &&
 echo -e "\n[$] > Stowing configuration files...\n" &&
 rm -f $HOME/.bashrc &&
 rm -f $HOME/.bash_profile &&
+rm -f $HOME/.profile &&
 cd ./bootstrap &&
 ./stower.sh &&
 echo -e "\n[$] > Configuration files successfully stowed!\n" &&
