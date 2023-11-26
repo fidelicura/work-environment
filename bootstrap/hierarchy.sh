@@ -11,9 +11,6 @@ mkdir -p $HOME/documents/pictures &&
 mkdir -p $HOME/.config &&
 mkdir -p $HOME/.own/bin &&
 mkdir -p $HOME/.own/go &&
-mkdir -p $HOME/.own/marksman &&
-mkdir -p $HOME/.own/zig/src &&
-mkdir -p $HOME/.own/zig/lsp &&
 mkdir -p $HOME/.own/rust/cargo &&
 mkdir -p $HOME/.own/rust/rustup &&
 mkdir -p $HOME/.local/share/fonts &&

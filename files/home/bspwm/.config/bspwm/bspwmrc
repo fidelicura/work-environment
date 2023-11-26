@@ -41,9 +41,3 @@ bspc config focus_follows_pointer false
 # {{ RULES }}
 bspc rule -a Zathura state=tiled
 # {{ RULES }}
-
-
-
-# {{ AUTOSTART }}
-$HOME/.own/bin/onstart
-# {{ AUTOSTART }}
