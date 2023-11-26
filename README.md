@@ -18,13 +18,13 @@ Also, I love BSPWM. It is **fast**, **modular** and **cozy**.
 - [x] WM: [bspwm](https://github.com/baskerville/bspwm)
 - [x] Hotkey Daemon: [sxhkd](https://github.com/baskerville/sxhkd)
 - [x] Compositor: [picom](https://github.com/yshui/picom/) by [yshui](https://github.com/yshui)
+- [ ] Notifications: [dunst](https://github.com/dunst-project/dunst)
 - [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/files/home/tilde/.bashrc)
 - [x] Text Editor: [helix](https://github.com/helix-editor/helix)
 - [x] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
 - [x] App Launcher: [rofi](https://github.com/davatorium/rofi)
 - [x] Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/) with custom [user.js](/configs/firefox/.mozilla/firefox/main.main/user.js)
 - [x] Reader: [zathura](https://git.pwmt.org/pwmt/zathura)
-- [x] Preview: [mdp](https://github.com/visit1985/mdp) because it is really [simple](https://github.com/visit1985/mdp/tree/master/src);
 - [x] System Monitor: [bottom](https://github.com/ClementTsang/bottom)
 - [x] MIME: [handlr](https://github.com/chmln/handlr) instead of [xdg-open](https://portland.freedesktop.org/doc/xdg-open.html)
 
