@@ -46,4 +46,6 @@ To be "fully-qualified", you'll need to install:
   - https://userstyles.world/style/4653/gruvbox-github - github;
   - https://userstyles.world/style/2326/discord-gruvbox - discord;
 - `duckduckgo` json settings from `$HOME/.mozilla/firefox/main.main/duckduckgo.json`;
-- `Obsidian` from official website as AppImage and put under `$HOME/.own/obsidian`;
+- `Obsidian`:
+  - from official website as AppImage and put under `$HOME/.own/obsidian`;
+  - replace name of desktop entry from `/home/fidelicura/...` to your user name folder;
