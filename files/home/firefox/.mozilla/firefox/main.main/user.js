@@ -62,7 +62,7 @@ user_pref("privacy.globalprivacycontrol.functionality.enabled", true);
 user_pref("privacy.trackingprotection.enabled",	true);
 user_pref("privacy.trackingprotection.pbmode.enabled", true);
 user_pref("privacy.donottrackheader.enabled", true);
-user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.3");
+user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
 user_pref("privacy.resistFingerprinting", true);
 
 /** OCSP & CERTS / HPKP ***/
