@@ -18,7 +18,7 @@ Also, I love BSPWM. It is **fast**, **modular** and **cozy**.
 - [x] WM: [bspwm](https://github.com/baskerville/bspwm)
 - [x] Hotkey Daemon: [sxhkd](https://github.com/baskerville/sxhkd)
 - [x] Compositor: [picom](https://github.com/yshui/picom/) by [yshui](https://github.com/yshui)
-- [ ] Notifications: [dunst](https://github.com/dunst-project/dunst)
+- [x] Notifications: [dunst](https://github.com/dunst-project/dunst)
 - [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/files/home/tilde/.bashrc)
 - [x] Text Editor: [helix](https://github.com/helix-editor/helix)
 - [x] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
