@@ -52,7 +52,7 @@ $INST -Suyv linux linux-firmware linux-headers \
     xorg-minimal bspwm sxhkd \
     dbus seatd pam_rundir dhcpcd chrony pipewire \
     xrandr xset xclip xwallpaper picom \
-    bash git curl tar xz unzip unrar \
+    bash git curl tar xz unzip unrar tectonic texlab \
     man-db man-pages man-pages-devel man-pages-posix \
     gcc ccls python3 go fasm zig zls \
     make python3-pip python3-wheel pkg-config docker \

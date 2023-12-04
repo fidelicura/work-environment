@@ -38,7 +38,7 @@ Also, you are free to rewrite it to your own kind: I tried to make it as simple 
 There is not everything that I wanted to include in this bootstrap.
 To be "fully-qualified", you'll need to install:
 - `Outline CLI` (VPN tool):
-  - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `output` under `/usr/local/bin`;
+  - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `outline` under `/usr/local/bin`;
 - `gruvbox` theme for `Telegram`, `Firefox`, `YouTube`, `GitHub` and `Discord`:
   - https://t.me/addtheme/qoopdata - telegram;
   - https://addons.mozilla.org/en-US/firefox/addon/gruvbox-true-dark/ - firefox;
