@@ -1,12 +1,12 @@
 [buildPlans.iosevka]
 family = "Iosevka"
-spacing = "fontconfig-mono"
-serifs = "sans"
+spacing = "quasi-proportional"
+serifs = "slab"
 no-cv-ss = false
 export-glyph-names = true
 
   [buildPlans.iosevka.variants]
-  inherits = "ss08"
+  inherits = "ss15"
 
     [buildPlans.iosevka.variants.design]
     capital-lambda = "curly-top-serifed"
@@ -30,6 +30,21 @@ export-glyph-names = true
 
   [buildPlans.iosevka.ligations]
   inherits = "dlig"
+
+[buildPlans.iosevka.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.iosevka.weights.semibold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.iosevka.weights.bold]
+shape = 700
+menu = 700
+css = 700
 
 [buildPlans.iosevka.widths.normal]
 shape = 500
