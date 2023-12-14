@@ -111,7 +111,8 @@ echo -e "\n[$] > Removed successfully!\n" &&
 
 
 echo -e "\n[$] > Stowing configuration files...\n" &&
-su -c "ln -sf /usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d/"
+su -c "ln -sf /usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d/" &&
+su -c xbps-reconfigure -f fontconfig &&
 rm -f $HOME/.bashrc &&
 rm -f $HOME/.bash_profile &&
 rm -f $HOME/.profile &&
