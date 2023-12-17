@@ -1,8 +1,8 @@
 configuration {
     show-icons: true;
-    font: "Iosevka 12";
+    font: "Iosevka NF Medium 12";
     modes: "drun,filebrowser";
-    icon-theme: "Papirus-Dark";
+    icon-theme: "gruvbox-dark";
 
     display-drun:   "> drun:";
     display-filebrowser: "󰉋 filebrowser:";
