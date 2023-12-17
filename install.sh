@@ -56,12 +56,12 @@ $INST -Suyv linux linux-firmware linux-headers \
     man-db man-pages man-pages-devel man-pages-posix \
     gcc ccls python3 go fasm zig zls \
     make python3-pip python3-wheel pkg-config docker \
-    kitty helix fzf stow telegram-desktop \
+    alacritty helix fzf stow telegram-desktop \
     steam libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun handlr \
     bottom tty-clock tree calc rtorrent ufetch \
-    firefox zathura-pdf-mupdf ffmpeg &&
+    firefox zathura-pdf-mupdf obs &&
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
 source $HOME/.own/rust/cargo/env &&
