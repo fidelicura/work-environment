@@ -50,7 +50,7 @@ $INST -Suyv void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree &&
 $INST -Suyv linux linux-firmware linux-headers \
     intel-ucode nvidia nvidia-libs-32bit \
     xorg-minimal bspwm sxhkd \
-    dbus seatd pam_rundir dhcpcd chrony pipewire \
+    dbus seatd pam_rundir dhcpcd chrony openssl pipewire \
     xrandr xset xclip xwallpaper picom \
     bash git curl tar xz unzip unrar tectonic texlab \
     man-db man-pages man-pages-devel man-pages-posix \
@@ -66,6 +66,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
 source $HOME/.own/rust/cargo/env &&
 rustup component add rust-analyzer clippy rustfmt &&
+cargo install slippy &&
 echo -e "\n[$] > Libraries, tools, programming languages and apps are succesfully installed!\n" &&
 
 
