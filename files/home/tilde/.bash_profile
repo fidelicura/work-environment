@@ -11,9 +11,8 @@ export TERM=xterm
 export EDITOR=hx
 export VISUAL=hx
 
-export CC=clang
-export CXX=clang++
-export AS=llvm-as
+export CC=gcc
+export CXX=g++
 export GOPATH=$HOME/.own/go
 export CARGO_HOME=$HOME/.own/rust/cargo
 export RUSTUP_HOME=$HOME/.own/rust/rustup
