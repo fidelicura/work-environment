@@ -41,7 +41,6 @@ To be "fully-qualified", you'll need to install:
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `outline` under `/usr/local/bin`;
 - `gruvbox` theme for `Telegram`, `Firefox`, `YouTube`, `GitHub` and `Discord`:
   - https://t.me/addtheme/qoopdata - telegram;
-  - https://addons.mozilla.org/en-US/firefox/addon/gruvbox-true-dark/ - firefox;
   - https://userstyles.world/api/style/7261.user.css - youtube;
   - https://userstyles.world/style/4653/gruvbox-github - github;
   - https://userstyles.world/style/2326/discord-gruvbox - discord;
