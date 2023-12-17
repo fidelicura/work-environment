@@ -48,7 +48,8 @@ echo -e "\n[$] > System successfully updated!\n" &&
 echo -e "\n[$] > Installing libraries, tools, programming languages and apps...\n" &&
 $INST -Suyv void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree &&
 $INST -Suyv linux linux-firmware linux-headers \
-    intel-ucode nvidia nvidia-libs-32bit \
+    intel-ucode nvidia nvidia-libs nvidia-libs-32bit \
+    mesa mesa-32bit vulkan-loader vulkan-loader-32bit \
     xorg-minimal bspwm sxhkd \
     dbus seatd pam_rundir dhcpcd chrony openssl pipewire \
     xrandr xset xclip xwallpaper picom \
