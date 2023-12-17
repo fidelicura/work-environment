@@ -105,7 +105,6 @@ echo -e "\n[$] > Ignored successfully!\n" &&
     
 
 echo -e "\n[$] > Removing 'sudo' package...\n" &&
-su -c "ln -sf /bin/gcc /bin/clang" &&
 $REM sudo &&
 echo -e "\n[$] > Removed successfully!\n" &&
 
