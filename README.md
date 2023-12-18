@@ -39,9 +39,10 @@ There is not everything that I wanted to include in this bootstrap.
 To be "fully-qualified", you'll need to install:
 - `Outline CLI` (VPN tool):
   - https://github.com/Jigsaw-Code/outline-sdk/tree/main/x/examples/outline-cli as `outline` under `/usr/local/bin`;
-- `gruvbox` theme for `Telegram`, `VK`, `YouTube`, `GitHub` and `Discord`:
+- `gruvbox` theme for `Telegram`, `VK`, `Zulip`, `YouTube`, `GitHub` and `Discord`:
   - https://t.me/addtheme/qoopdata - telegram;
   - https://uso.kkx.one/style/136259 - vk;
+  - https://uso.kkx.one/style/168342 - zulip;
   - https://userstyles.world/api/style/7261.user.css - youtube;
   - https://userstyles.world/style/4653/gruvbox-github - github;
   - https://userstyles.world/style/2326/discord-gruvbox - discord;
