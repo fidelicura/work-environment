@@ -21,7 +21,7 @@ Also, I love BSPWM. It is **fast**, **modular** and **cozy**.
 - [x] Notifications: [dunst](https://github.com/dunst-project/dunst)
 - [x] Shell: [bash](https://www.gnu.org/software/bash) with [custom scripts](/files/home/tilde/.bashrc)
 - [x] Text Editor: [helix](https://github.com/helix-editor/helix)
-- [x] Terminal: [kitty](https://github.com/kovidgoyal/kitty) because of [ligature support](https://github.com/alacritty/alacritty/issues/50)
+- [x] Terminal: [alacritty](https://github.com/alacritty/alacritty) because of [bitmap support](https://github.com/kovidgoyal/kitty/issues/97)
 - [x] App Launcher: [rofi](https://github.com/davatorium/rofi)
 - [x] Browser: [firefox](https://www.mozilla.org/en-US/firefox/new/) with custom [user.js](/configs/firefox/.mozilla/firefox/main.main/user.js)
 - [x] Reader: [zathura](https://git.pwmt.org/pwmt/zathura)
