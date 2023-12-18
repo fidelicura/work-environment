@@ -49,13 +49,13 @@ echo -e "\n[$] > Installing libraries, tools, programming languages and apps...\
 $INST -Suyv void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree &&
 $INST -Suyv linux linux-firmware linux-headers \
     intel-ucode nvidia nvidia-libs nvidia-libs-32bit \
-    mesa mesa-32bit vulkan-loader vulkan-loader-32bit \
+    mesa mesa-32bit glu glu-32bit vulkan-loader vulkan-loader-32bit \
     xorg-minimal bspwm sxhkd \
-    dbus seatd pam_rundir dhcpcd chrony openssl pipewire \
+    dbus seatd pam_rundir dhcpcd polkit-gnome chrony openssl pipewire \
     xrandr xset xclip xwallpaper picom \
-    bash git curl tar xz unzip unrar tectonic texlab \
+    bash git curl tar xz unzip unrar udiskie \
     man-db man-pages man-pages-devel man-pages-posix \
-    gcc ccls python3 go fasm zig zls \
+    gcc ccls python3 go fasm zig zls tectonic texlab \
     make python3-pip python3-wheel pkg-config docker \
     alacritty helix fzf stow telegram-desktop \
     steam libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit \
@@ -67,7 +67,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
 source $HOME/.own/rust/cargo/env &&
 rustup component add rust-analyzer clippy rustfmt &&
-cargo install slippy &&
+cargo install --locked slippy &&
 echo -e "\n[$] > Libraries, tools, programming languages and apps are succesfully installed!\n" &&
 
 
@@ -113,7 +113,7 @@ echo -e "\n[$] > Removed successfully!\n" &&
 
 echo -e "\n[$] > Stowing configuration files...\n" &&
 su -c "ln -sf /usr/share/fontconfig/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d/" &&
-su -c xbps-reconfigure -f fontconfig &&
+su -c "xbps-reconfigure -f fontconfig" &&
 rm -f $HOME/.bashrc &&
 rm -f $HOME/.bash_profile &&
 rm -f $HOME/.profile &&
