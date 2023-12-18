@@ -55,7 +55,7 @@ $INST -Suyv linux linux-firmware linux-headers \
     xrandr xset xclip xwallpaper picom \
     bash git curl tar xz unzip unrar udiskie \
     man-db man-pages man-pages-devel man-pages-posix \
-    gcc ccls python3 go fasm zig zls tectonic texlab \
+    gcc ccls python3 go fasm zig zls ghc tectonic texlab \
     make python3-pip python3-wheel pkg-config docker \
     alacritty helix fzf stow telegram-desktop \
     steam libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit \
