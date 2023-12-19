@@ -19,9 +19,9 @@ source ~/.bash_profile
 # {{ ALIASES }}
 alias h="hx"
 alias cc="clang"
-alias ll="ls -lA"
 alias py="python3"
 alias ls="ls --color"
+alias ll="ls --color -lAh"
 alias xdg-open="handlr open"
 alias xclip="xclip -selection c"
 # {{ ALIASES }}
