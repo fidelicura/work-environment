@@ -24,6 +24,7 @@ alias ls="ls --color"
 alias ll="ls --color -lAh"
 alias xdg-open="handlr open"
 alias xclip="xclip -selection c"
+alias presenterm="presenterm --theme terminal-dark"
 # {{ ALIASES }}
 
 
