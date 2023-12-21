@@ -19,7 +19,7 @@ scrolling:
   multiplier: 3
 
 font:
-  size: 15.0
+  size: 16.0
   normal:
     family: BigBlueTermPlus Nerd Font Mono
     style: Regular
@@ -31,6 +31,7 @@ mouse:
 
   hints:
     modifiers: Control
+    program: "handlr open"
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
