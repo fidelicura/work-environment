@@ -52,3 +52,4 @@ To be "fully-qualified", you'll need to install:
   - replace name of desktop entry from `/home/fidelicura/...` to your user name folder;
 - `Discord`:
   - from official website as `tar.gz`, unzip and put under `$HOME/.own/discord`;
+  - replace name of desktop entry from `/home/fidelicura/...` to your user name folder;
