@@ -101,6 +101,12 @@ echo -e "\n[$] > Ignored successfully!\n" &&
 
 
 
+echo -e "\n[$] > Creating symlinks...\n" &&
+sudo ln -sf $HOME/.local/share/applications/open /usr/bin/xdg-open &&
+echo -e "\n[$] > Symlinks created successfully!\n" &&
+
+
+
 echo -e "\n[$] > Removing 'sudo' package...\n" &&
 $REM sudo &&
 echo -e "\n[$] > Removed successfully!\n" &&
