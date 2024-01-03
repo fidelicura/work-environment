@@ -13,9 +13,6 @@ export VISUAL=hx
 
 export CC=gcc
 export CXX=g++
-export GOPATH=$HOME/.own/go
-export CARGO_HOME=$HOME/.own/rust/cargo
-export RUSTUP_HOME=$HOME/.own/rust/rustup
 # {{ CUSTOM }}
 
 
@@ -38,10 +35,4 @@ export XDG_MUSIC_DIR=$HOME/documents/music
 export XDG_PICTURES_DIR=$HOME/documents/pictures
 export XDG_VIDEOS_DIR=$HOME/documents/videos
 # {{ XDG}}
-
-
-
-# {{ PATH }}
-PATH=$PATH:$HOME/.own/bin:$HOME/.own/zig/src:$HOME/.own/zig/lsp:$HOME/.own/marksman:$HOME/.own/minecraft
-# {{ PATH }}
 . "/home/fidelicura/.own/rust/cargo/env"

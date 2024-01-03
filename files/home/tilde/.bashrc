@@ -70,5 +70,4 @@ function nedit() {
 
 # {{ ON STARTUP }}
 clear
-. "/home/fidelicura/.own/rust/cargo/env"
 # {{ ON STARTUP }}

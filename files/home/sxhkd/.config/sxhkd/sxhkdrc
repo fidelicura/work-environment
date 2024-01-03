@@ -6,10 +6,10 @@ super + p
 	rofi -show drun
 
 Print
-	exec $HOME/.own/bin/screenshot
+	exec $HOME/.local/share/applications/screenshot
 
 super + Print
-	exec $HOME/.own/bin/full_screenshot
+	exec $HOME/.local/share/applications/full_screenshot
 
 super + shift + {plus,minus}
 	pactl set-sink-volume @DEFAULT_SINK@ {+,-}5%
