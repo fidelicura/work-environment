@@ -62,7 +62,7 @@ $INST -Suyv linux linux-firmware linux-headers \
     papirus-icon-theme picom dunst rofi \
     xcolor slop shotgun handlr \
     bottom tty-clock tree calc rtorrent ufetch \
-    firefox zathura-pdf-mupdf obs &&
+    firefox zathura-pdf-mupdf &&
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
 source $HOME/.own/rust/cargo/env &&
