@@ -29,10 +29,6 @@ mouse:
   triple_click: { threshold: 300 }
   hide_when_typing: true
 
-  hints:
-    modifiers: Control
-    program: "handlr open"
-
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
   save_to_clipboard: false
