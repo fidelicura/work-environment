@@ -17,3 +17,8 @@ forwardSearchAfter = true
 onSave = true
 executable = "tectonic"
 args = [ "%f", "--outdir=build" ]
+
+[[language]]
+name = "c"
+auto-format = true
+language-servers = [ "ccls" ]

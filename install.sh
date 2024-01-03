@@ -94,12 +94,6 @@ echo -e "\n[$] > GRUB config changed successfully!\n" &&
 
 
 
-echo -e "\n[$] > Creating symlinks...\n" &&
-sudo ln -sf /usr/bin/ccls /usr/bin/clangd &&
-echo -e "\n[$] > Symlinks created successfully!\n" &&
-
-
-
 echo -e "\n[$] > Ignoring 'sudo' package...\n" &&
 sudo touch /usr/share/xbps.d/ignorepkgs.conf &&
 echo "ignorepkg=sudo" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
