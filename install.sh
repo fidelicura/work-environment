@@ -116,7 +116,6 @@ su -c "xbps-reconfigure -f fontconfig" &&
 rm -f $HOME/.bashrc &&
 rm -f $HOME/.bash_profile &&
 rm -f $HOME/.profile &&
-cd ./bootstrap &&
 ./stower.sh &&
 echo -e "\n[$] > Configuration files successfully stowed!\n" &&
 
