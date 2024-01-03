@@ -51,7 +51,7 @@ $INST -Suyv linux linux-firmware linux-headers \
     intel-ucode nvidia nvidia-libs nvidia-libs-32bit \
     mesa mesa-32bit glu glu-32bit vulkan-loader vulkan-loader-32bit \
     xorg-minimal bspwm sxhkd \
-    dbus seatd pam_rundir dhcpcd polkit-gnome chrony openssl pipewire \
+    dbus seatd pam_rundir dhcpcd polkit-gnome chrony openssl openssl-devel pipewire \
     xrandr xset xclip xwallpaper picom \
     bash git curl tar xz unzip unrar udiskie \
     man-db man-pages man-pages-devel man-pages-posix \
