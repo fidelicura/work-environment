@@ -67,7 +67,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
 source $HOME/.own/rust/cargo/env &&
 rustup component add rust-analyzer clippy rustfmt &&
-cargo install --locked slippy &&
 echo -e "\n[$] > Libraries, tools, programming languages and apps are succesfully installed!\n" &&
 
 
