@@ -22,9 +22,6 @@ cd ./bootstrap &&
 
 
 echo -e "\n[$] > Creating temporary environment shell variables...\n" &&
-export GOPATH=$HOME/.own/go
-export CARGO_HOME=$HOME/.own/rust/cargo
-export RUSTUP_HOME=$HOME/.own/rust/rustup
 INST="sudo xbps-install" &&
 REM="sudo xbps-remove -Roy" &&
 GITHUB="git config --global" &&
@@ -97,12 +94,18 @@ echo -e "\n[$] > GRUB config changed successfully!\n" &&
 
 
 
+echo -e "\n[$] > Creating symlinks...\n" &&
+sudo ln -sf /usr/bin/ccls /usr/bin/clangd &&
+echo -e "\n[$] > Symlinks created successfully!\n" &&
+
+
+
 echo -e "\n[$] > Ignoring 'sudo' package...\n" &&
 sudo touch /usr/share/xbps.d/ignorepkgs.conf &&
 echo "ignorepkg=sudo" | sudo tee -a /usr/share/xbps.d/ignorepkgs.conf &&
 echo -e "\n[$] > Ignored successfully!\n" &&
 
-    
+
 
 echo -e "\n[$] > Removing 'sudo' package...\n" &&
 $REM sudo &&
