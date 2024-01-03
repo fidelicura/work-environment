@@ -18,7 +18,10 @@ onSave = true
 executable = "tectonic"
 args = [ "%f", "--outdir=build" ]
 
+[language-server.ccls]
+command = "ccls"
+
 [[language]]
 name = "c"
-auto-format = true
 language-servers = [ "ccls" ]
+indent = { tab-width = 4, unit = "    " }
