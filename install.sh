@@ -62,7 +62,7 @@ $INST -Suyv linux linux-firmware linux-headers \
     firefox zathura-pdf-mupdf &&
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs |\
     sh -s -- -y --profile minimal --default-toolchain stable &&
-source $HOME/.own/rust/cargo/env &&
+source "$HOME/.cargo/env" &&
 rustup component add rust-analyzer clippy rustfmt &&
 echo -e "\n[$] > Libraries, tools, programming languages and apps are succesfully installed!\n" &&
 

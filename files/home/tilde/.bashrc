@@ -71,3 +71,4 @@ function nedit() {
 # {{ ON STARTUP }}
 clear
 # {{ ON STARTUP }}
+. "$HOME/.cargo/env"

@@ -36,3 +36,4 @@ export XDG_PICTURES_DIR=$HOME/documents/pictures
 export XDG_VIDEOS_DIR=$HOME/documents/videos
 # {{ XDG}}
 . "/home/fidelicura/.own/rust/cargo/env"
+. "$HOME/.cargo/env"
